@@ -1,0 +1,116 @@
+
+body {
+	background-color: #FBFBEF;
+}
+
+.logo {
+	margin-right: 255px;
+}
+
+.imagen-fondo img {
+	width: 100%;
+	height: 500px;
+}
+
+.full-width {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.navbar-nav li {
+	margin-left: 25px;
+}
+
+.contenido {
+	margin: 75px;
+    margin-left: 150px;
+}
+
+.foto-interior {
+	height: 370px;
+    width: 57%;
+}
+
+.imagen-interior {
+	height: 370px;
+    width: 57%;
+}
+.block2 {
+	margin: 75px;
+	margin-left: 100px;
+}
+
+.col-block2 {
+	margin-right: 50px;
+}
+
+footer {
+	height: 50px;
+	margin-top: 45px;
+	background-color: #F5ECCE;
+}
+
+.pie-pagina p {
+	margin-right: 10px;
+
+}
+
+.footer {
+	padding-top: 11px !important;
+}
+
+
+/*Menu*/
+
+.category {
+	border: 1px solid grey;
+}
+
+.category .btn {
+	margin-right: 15px;
+	background-color: #F5ECCE;
+	border-color: red;
+	color: black;
+}
+
+.content {
+	margin: 80px;
+}
+
+.tarjeta {
+	width: 500px;
+	height: 200px;
+	background-color: #F5ECCE;
+	margin-left: 55px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.img-tarjeta {
+	width: 100%;
+	height: 198px;
+}
+
+.description {
+	height: 100px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.title {
+	margin-top: 15px;
+}
+.price {
+	margin-top: 10px;
+}
+
+.bebida {
+	width: 250px;
+	height: 250px;
+}
+
+.select-numero {
+    height: 30px;
+    width: 50px;
+}

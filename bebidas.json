@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Coca-Cola",
+		"price": "1,50€"
+	},
+	{
+		"name": "Fanta Naranja",
+		"price": "1,50€"
+	},
+	{
+		"name": "Cerveza",
+		"price": "1,60€"
+	},
+	{
+		"name": "Agua",
+		"price": "2€"
+	},
+	{
+		"name": "Vino",
+		"price": "2,50€"
+	}
+]
