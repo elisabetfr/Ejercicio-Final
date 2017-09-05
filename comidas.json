@@ -1,59 +1,59 @@
 [
 	{
-		"name": "Álbondigas ",
+		"name": "Berenjenas con gambas y jamón gratinadas con Mozzarella",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex illo similique libero deserunt quo corporis dolorem quia officia tenetur fugit, a modi vero atque eos esse eaque quos quas iure.",
-		"image": "",
-		"category": "Platos de la casa",
-		"price": "6€"
+		"image": "./images/berenjenas.jpg",
+		"category": "Platos",
+		"price": 7
 	},
 	{
-		"name": "Ensalada mixta",
+		"name": "Ensalada de frutas y frutos secos",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consectetur, quas, ducimus tempora doloremque at aliquid recusandae voluptates ab, aut fugit temporibus vitae numquam, magnam nihil necessitatibus unde nam accusantium.",
-		"image": "",
+		"image": "./images/ensalada.jpg",
 		"category": "Entrantes",
-		"price": "5€"
+		"price": 8
 	},
 	{
-		"name": "Lubina al horno",
+		"name": "Salmón a la parrilla",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maiores totam ratione rerum quidem quos dolores, dolorum id nam? Ipsam odit pariatur error nam qui, facere hic beatae nemo consectetur!",
-		"image": "",
+		"image": "./images/salmon.jpg",
 		"category": "Pescados",
-		"price": "10€"
+		"price": 10
 	},
 	{
-		"name": "Solomillo al whisky",
+		"name": "Presa de cerdo ibérico",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum commodi temporibus in, qui, autem quo distinctio dolores maiores explicabo consequuntur dolorem nam molestiae recusandae. Velit, porro sit culpa adipisci?",
-		"image": "",
+		"image": "./images/presa.jpg",
 		"category": "Carnes",
-		"price": "8€"
+		"price": 11
 	},
 	{
-		"name": "Tarta dulce de leche",
+		"name": "Arroz con leche en tulipa de canela",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque labore debitis, repellat nihil, accusamus placeat illo voluptatem nisi facilis ratione magni assumenda, praesentium, necessitatibus impedit libero explicabo voluptas distinctio odio.",
-		"image": "",
+		"image": "./images/postreCasero.jpg",
 		"category": "Postres",
-		"price": "4,50€"
+		"price": 4.5
 	},
 	{
-		"name": "",
-		"description": "",
-		"image": "",
-		"category": "",
-		"price": ""
+		"name": "Tarta de Queso Mascarpone con frutos rojos",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, dolor sequi quod inventore quos commodi! Iure ullam sapiente, facere quasi eos culpa eligendi repellat ex voluptate, accusantium sunt, aliquid porro.",
+		"image": "./images/postre.jpg",
+		"category": "Postres",
+		"price": 4.5
 	},
 	{
-		"name": "",
-		"description": "",
-		"image": "",
-		"category": "",
-		"price": ""
+		"name": "Tarta Ferrero Rocher",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus earum ullam quam placeat explicabo nam porro animi cupiditate error saepe laudantium accusantium magnam minima, deleniti, repudiandae iusto. Accusantium, quaerat nostrum.",
+		"image": "./images/tarta.jpg",
+		"category": "Postres",
+		"price": 4
 	},
 	{
-		"name": "",
-		"description": "",
-		"image": "",
-		"category": "",
-		"price": ""
+		"name": "Carpacho de Piña a la menta con helado cremoso de Limón",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae neque molestiae harum voluptatem commodi alias dicta, fugiat asperiores repellat doloribus incidunt, quos id quaerat et iure deleniti libero itaque saepe.",
+		"image": "./images/carpaccio.jpg",
+		"category": "Postres",
+		"price": 4.5
 	},
 	{
 		"name": "",

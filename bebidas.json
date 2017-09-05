@@ -1,22 +1,32 @@
 [
 	{
 		"name": "Coca-Cola",
-		"price": "1,50€"
+		"price": 1.5,
+		"image": "./images/bebida.jpg",
+		"category": "Bebidas"
 	},
 	{
 		"name": "Fanta Naranja",
-		"price": "1,50€"
+		"price": 1.5,
+		"image": "./images/bebida.jpg",
+		"category": "Bebidas"
 	},
 	{
 		"name": "Cerveza",
-		"price": "1,60€"
+		"price": 1.6,
+		"image": "./images/bebida.jpg",
+		"category": "Bebidas"
 	},
 	{
 		"name": "Agua",
-		"price": "2€"
+		"price": 2,
+		"image": "./images/bebida.jpg",
+		"category": "Bebidas"
 	},
 	{
 		"name": "Vino",
-		"price": "2,50€"
+		"price": 2.5,
+		"image": "./images/bebida.jpg",
+		"category": "Bebidas"
 	}
 ]

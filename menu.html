@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ens">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Menú</title>
@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+			<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -36,6 +36,35 @@
 			</nav>
 		</header>
 		
+		<!-- Plantilla de carta --> 
+
+		<div class="tarjeta" id="hiddenCard" hidden>
+			<div class="row full-width">
+				<div class="col-md-6 full-width">
+					<img class="img-tarjeta" src="">
+				</div>
+				<div class="col-md-6">
+					<div class="row full-width">
+						<span class="title" data-toggle="tooltip" data-placement="bottom" title=""></span>
+					</div>
+					<div class="row full-width price">
+						<div class="col-md-8">
+							<span class="precio"></span>
+						</div>
+						<div class="col-md-4">
+							<input type="number" class="select-numero" value="1" min="1">
+						</div>
+					</div>
+					<div class="row full-width">
+						<button data-name="" data-price="" class="seleccionar">Seleccionar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<!-- Menu -->
+
 		<div class="container-fluid full-width">
 			<div class="imagen-fondo">
 				<img src="images/comidas.jpg">
@@ -43,32 +72,34 @@
 
 			
 			<div class="row full-width category">
-				<div class="col-md-12 text-center">
-					<button class="btn btn-primary" id="entrantes">Entrantes</button>
-					<button class="btn btn-primary" id="platos">Platos de la casa</button>
-					<button class="btn btn-primary" id="carnes">Carnes</button>
-					<button class="btn btn-primary" id="pescados">Pescados</button>
-					<button class="btn btn-primary" id= "postres">Postres</button>
-					<button class="btn btn-primary" id="bebidas">Bebidas</button>
+				<div class="col-md-12 text-center" id="menuButtons">
+					<button class="btn" id="entrantes" data-type="comidas">Entrantes</button>
+					<button class="btn" id="platos" data-type="comidas">Platos de la casa</button>
+					<button class="btn" id="carnes" data-type="comidas">Carnes</button>
+					<button class="btn" id="pescados" data-type="comidas">Pescados</button>
+					<button class="btn" id= "postres" data-type="comidas">Postres</button>
+					<button class="btn" id="bebidas" data-type="bebidas">Bebidas</button>
 				</div>
 			</div>
 
 			<div class="content">
-				<div class="row full-width" id= "menuTarjetas">
-					
+				<div class="row full-width">
+					<div class="col-md-9">
+						<div class="row full-width" id="menuTarjetas"></div>
+					</div>
+					<div class="col-md-3">
+						<p class="pedido">Pedido</p>
+						<hr>
+						<ul id="listaPedido"></ul>
+						<span>Precio Total: <span id="precioTotal">0</span>€</span>
+					</div>
 				</div>
 					
 			</div>
+		</div>
 
-			<footer>
+		<footer class="fixed-bottom">
 				<div class="row full-width footer">
-					<!-- <div class="text-left">
-			        	<p class="footer text-center">COPYRIGHT © Restaurante La Resolana 2017</p>
-			        </div>
-			        <div class="text-right">
-			        	<p class="privacy text-right">Privacidad</p>
-			        	<p class="terms text-right">Términos de uso</p>
-			        </div> -->
 			        <div class="col-md-6">
 			        	<p>COPYRIGHT © Restaurante La Resolana 2017</p>
 			        </div>
@@ -85,27 +116,7 @@
 				    </div>
 			    </div>
 	      	</footer>
-		</div>
 		
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
